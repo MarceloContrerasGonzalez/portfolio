@@ -1,6 +1,6 @@
 import About from "./components/About";
-import Contact from "./components/Contact";
-import Projects from "./components/Projects";
+/* import Contact from "./components/Contact";
+import Projects from "./components/Projects"; */
 
 export default function HomePage() {
   return (
