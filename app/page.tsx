@@ -1,8 +1,9 @@
 import Image from "next/image";
-/* 
 import About from "./components/About";
-import Contact from "./components/Contact";
+/* 
 import Projects from "./components/Projects";
+
+import Contact from "./components/Contact";
  */
 export default function HomePage() {
   return (
@@ -19,16 +20,16 @@ export default function HomePage() {
             <div className="flex flex-col mt-10 sm:flex-row justify-center sm:justify-start gap-4">
               <a href="https://github.com/MarceloContrerasGonzalez" target="_blank" rel="noopener" className=" m-1 px-6 sm:px-12 py-2 bg-transparent text-white rounded-full hover:bg-gray-700 transition mt-2 border-gray-500 border">GitHub</a>
               <a href="https://www.linkedin.com/in/marcecontreras/" target="_blank" rel="noopener" className=" m-1 px-6 sm:px-12 py-2 bg-transparent text-white rounded-full hover:bg-gray-700 transition mt-2 border-gray-500 border">Linkedin</a>
-              <a href="/cv/CV-marcelo-ignacio-contreras-gonzalez.pdf" target="_blank" rel="noreferrer" download className="m-1 px-6 sm:px-12 py-2 bg-transparent text-white rounded-full hover:bg-gray-700 transition mt-2 border-gray-500 border">Curriculum</a>
+              <a href="cv/CV-marcelo-ignacio-contreras-gonzalez.pdf" target="_blank" rel="noreferrer" download className="m-1 px-6 sm:px-12 py-2 bg-transparent text-white rounded-full hover:bg-gray-700 transition mt-2 border-gray-500 border">Curriculum</a>
             </div>
           </div>
         </div>
       </section>
-{/*
-      <section id="about">
+
+      <section id="about" className="flex justify-center items-center m-6 sm:m-12 md:m-16 lg:m-20 xl:m-40 bg-gray-900">
         <About />
       </section>
-        
+{/*        
        <section id="projects">
         <Projects />
       </section>
