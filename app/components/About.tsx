@@ -16,7 +16,7 @@ export default function About(){
     return(
         <div className="flex flex-wrap px-6 lg:px-10 py-16 rounded-md ring-1">
             <div className="w-full lg:w-1/2 lg:pl-4 lg:pr-12">
-                <h1 className="text-4xl text-center font-bold mb-9.">Sobre mí</h1>
+                <h1 className="text-4xl text-center font-bold mb-8">Sobre mí</h1>
                 <p className="max-w-3xl mb-5">
                     Soy un desarrollador, apasionado por la tecnología y el aprendizaje continuo. Durante mi formación y experiencia profesional, he adquirido sólidos conocimientos en desarrollo web, gestión de proyectos y análisis de datos.
                 </p>
